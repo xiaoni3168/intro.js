@@ -1,6 +1,6 @@
 {
   "name": "intro.js",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Lightweight, user-friendly onboarding tour library",
   "keywords": [
     "onboarding",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/usablica/intro.js"
   },
-  "main": "intro.js",
+  "main": "dist/intro.js",
   "scripts": {
     "prettier": "prettier --write 'src/**/*'",
     "test": "run-p test:prettier test:jest test:jshint test:cypress",
@@ -66,10 +66,10 @@
     "node >=0.1.90"
   ],
   "files": [
-    "*.js",
-    "*.css",
-    "themes/*",
-    "minified/*"
+    "dist/*.js",
+    "dist/*.css",
+    "dist/themes/*",
+    "dist/minified/*"
   ],
   "license": "AGPL-3.0",
   "changelog": {
