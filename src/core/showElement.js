@@ -182,7 +182,7 @@ export default function _showElement(targetElement) {
         targetElement,
         oldtooltipLayer
       );
-    }, 350);
+    });
 
     // end of old element if-else condition
   } else {

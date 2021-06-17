@@ -47,7 +47,6 @@ $background_color_10: rgba(136, 136, 136, 0.24);
   box-sizing: content-box;
   z-index: 999999;
   opacity: 0;
-  transition: all 0.3s ease-out;
 }
 
 .introjs-showElement {
@@ -83,7 +82,6 @@ tr.introjs-showElement {
   position: absolute;
   z-index: 9999998;
   border-radius: 4px;
-  transition: all 0.3s ease-out;
 
   * {
     box-sizing: content-box;
@@ -105,7 +103,6 @@ tr.introjs-showElement {
   visibility: hidden;
   z-index: 100000000;
   background-color: transparent;
-  transition: all 0.3s ease-out;
 
   * {
     font-family: $font_family;
@@ -197,7 +194,6 @@ tr.introjs-showElement {
   max-width: 300px;
   border-radius: 5px;
   box-shadow: 0 3px 30px rgba($black900, 0.3);
-  transition: opacity 0.1s ease-out;
 }
 
 .introjs-tooltiptext {
@@ -365,7 +361,6 @@ tr.introjs-showElement {
       margin: 0 2px;
 
       a {
-        transition: width 0.1s ease-in;
         box-sizing: content-box;
         display: block;
         width: 6px;
@@ -461,7 +456,6 @@ tr.introjs-showElement {
   background-color: $background_color_10;
   z-index: 10;
   position: absolute;
-  transition: all 0.2s ease-out;
 }
 
 .introjs-hint-no-anim {
